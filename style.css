@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+
+    
+}
+
+.header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+section {
+    padding: 10px;
+}
+
+h2 {
+    color:  #4caf50;
+    padding-bottom: 5px;
+    
+}
+
+.class-selector {
+    color: black;
+}
+
+#id-selector {
+    color: red;
+    font-style: bold;
+}
+
+p[attribute="example"] {
+    color: blue;
+    font-style: italic;
+}
+
+.pseudo-example {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pseudo-example::first-letter {
+    font-size: 200%;
+    color: purple;
+}
+
+
+
+.child {
+    background-color: #ffeb3c;
+    padding: 10px;
+}
+
+
+.descendant {
+    background-color: #cddc39;
+    padding: 10px;
+}
+
+.box-model {
+    margin: 35px;
+    padding: 35px;
+    border: 2px solid #72b2dd;
+}
+
+.background-border {
+    background-color: #83ba41;
+    border: 3px dotted orange;
+    padding: 35px;
+
+}
+
+.rtl-text {
+    direction: rtl;
+}
+
+.overflow {
+    width: 200px;
+    height: 70px;
+    text-align: left;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: #fec107;
+    padding: 20px;
+}
